@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 600" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a Zippyfeed 500 ml packaged drinking water bottle</title>
+  <defs>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#cfe9f2"/>
+      <stop offset=".18" stop-color="#f4fbfd"/>
+      <stop offset=".45" stop-color="#e3f3f8"/>
+      <stop offset=".8" stop-color="#f7fcfe"/>
+      <stop offset="1" stop-color="#bfe0ec"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1">
+      <stop offset="0" stop-color="#a9d8e8"/>
+      <stop offset=".3" stop-color="#e6f5fa"/>
+      <stop offset=".7" stop-color="#d2edf5"/>
+      <stop offset="1" stop-color="#9fd1e3"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop offset="0" stop-color="#e9edf1"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9dfe5"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="body">
+      <path d="M92 70 h56 v22 c0 14 36 34 36 74 v370 c0 22 -14 34 -34 34 h-60 c-20 0 -34 -12 -34 -34 v-370 c0 -40 36 -60 36 -74z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="120" cy="582" rx="78" ry="10" fill="#0f1b2d" opacity=".08"/>
+  <!-- bottle -->
+  <path d="M92 70 h56 v22 c0 14 36 34 36 74 v370 c0 22 -14 34 -34 34 h-60 c-20 0 -34 -12 -34 -34 v-370 c0 -40 36 -60 36 -74z" fill="url(#glass)" stroke="#b7d6e2" stroke-width="2"/>
+  <g clip-path="url(#body)">
+    <rect x="40" y="150" width="160" height="440" fill="url(#water)" opacity=".75"/>
+    <path d="M56 150 q16 -6 32 0 t32 0 t32 0 t32 0 v6 h-128z" fill="#fff" opacity=".6"/>
+    <g fill="none" stroke="#b7d6e2" stroke-width="2" opacity=".8">
+      <path d="M56 190 h128"/><path d="M56 202 h128"/>
+      <path d="M56 500 h128"/><path d="M56 512 h128"/>
+    </g>
+    <!-- label -->
+    <rect x="50" y="230" width="140" height="250" fill="#ffffff"/>
+    <rect x="50" y="230" width="140" height="250" fill="none" stroke="#d2382f" stroke-width="3"/>
+    <rect x="50" y="230" width="140" height="10" fill="#d2382f"/>
+    <rect x="50" y="470" width="140" height="10" fill="#d2382f"/>
+    <rect x="70" y="258" width="20" height="20" rx="3" fill="#d2382f"/>
+    <text x="80" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#fff">Z</text>
+    <text x="94" y="274" font-family="Arial, sans-serif" font-weight="700" font-size="17" fill="#0f1b2d">ippyfeed</text>
+    <text x="120" y="310" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="14" fill="#d2382f">PACKAGED</text>
+    <text x="120" y="328" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="11" fill="#0f1b2d">DRINKING WATER</text>
+    <g fill="#2ba6c9" opacity=".9">
+      <path d="M120 350 c-12 18 -18 28 -18 38 a18 18 0 0 0 36 0 c0 -10 -6 -20 -18 -38z"/>
+    </g>
+    <path d="M112 388 a8 8 0 0 0 8 8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="120" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#0f1b2d">500 ml</text>
+    <rect x="58" y="80" width="18" height="500" fill="url(#shine)" opacity=".7"/>
+  </g>
+  <!-- neck ring + cap -->
+  <rect x="86" y="62" width="68" height="10" rx="3" fill="#e8f2f6" stroke="#b7d6e2" stroke-width="2"/>
+  <rect x="90" y="18" width="60" height="46" rx="6" fill="url(#cap)" stroke="#cdd5dc" stroke-width="2"/>
+  <g stroke="#d5dce2" stroke-width="2">
+    <path d="M100 24 v34"/><path d="M110 24 v34"/><path d="M120 24 v34"/><path d="M130 24 v34"/><path d="M140 24 v34"/>
+  </g>
+</svg>
